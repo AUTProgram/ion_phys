@@ -1,0 +1,30 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+
+\begin{document}
+\section{Atomic Hamiltonian}
+The Hamiltonian for an atom interacting with an external electromagnetic wave is given by
+
+\subsection{Multipole matrix elements}
+
+\section{Optical Bloch equations}
+The time evolution of the density matrix is described by the Liouville equation
+\begin{equation}
+    \frac{d \rho}{dt} = \frac{i}{\hbar} [H, \rho]
+\end{equation}
+In the presence of relaxation, this is modified to
+\begin{equation}
+    \frac{d \rho}{dt} = \frac{i}{\hbar} [H, \rho] - L \rho,
+\end{equation}
+where $L$ is the Lindblad operator. If the coherent interaction is due to interaction with an electromagnetic wave,
+the Hamiltonian takes the form found earlier.
+It is then useful to move to a rotating frame via the transformation
+\begin{equation}
+    \sigma_{ij} = \rho_{ij} e^{i \omega_a t}
+\end{equation}
+The Hamiltonian thus becomes time-independent and takes the form
+\begin{equation}
+    \frac{d \sigma_{ij}}{dt} = K \sigma - L \sigma,
+\end{equation}
+which means that
